@@ -20,4 +20,5 @@ non_empty_line = [line for line in lines if line.strip() != ""][0]
 price = non_empty_line.replace(" ", "")
 
 
-print('Preço Barril 5L Heineken no Continente: ' + price)
+print('Preço Barril 5L Heineken no Continente: ' + price + '\n')
+input('Press any key to exit')
